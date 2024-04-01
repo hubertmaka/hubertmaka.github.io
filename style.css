@@ -7,6 +7,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+
 }
 
 html {
@@ -137,10 +138,19 @@ a:hover {
 }
 
 /* SECTION */
+.section {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.section.visible {
+    opacity: 1;
+}
+
 section {
     padding: 4vh;
     height: 96vh;
-    margin: 3rem 2rem;
+    margin: 2rem;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -150,16 +160,20 @@ section {
 
 .sec-pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+    height: 500px;
+    width: 500px;
+    margin: 0;
+
 }
 
 #profile {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
     height: 85vh;
+    width: 100%;
 }
 
 .sec-text {
@@ -275,11 +289,12 @@ section {
     border-radius: 2rem;
     height: 400px;
     width: 400px;
+    box-shadow: 2rem -1.5rem teal;
 }
 
 .arrow {
     position: absolute;
-    right: -5rem;
+    right: -1rem;
     bottom: 2.5rem;
 }
 
@@ -345,3 +360,48 @@ article .icon {
 }
 
 /* PROJECTS */
+
+#projects {
+    position: relative;
+}
+
+.color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(255, 255, 255);
+    margin: 1.5rem;
+    display: flex;
+    min-height: 20rem;
+    min-width: 20rem;
+
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+.project-btn {
+    color: rgb(0, 0, 0);
+    border-color: rgb(163, 163, 163);
+
+}
+
+.about-containers-projects{
+    display: flex;
+    width: 100%;
+    flex: 4;
+    flex-wrap: wrap;
+}
+
+.project-description {
+    text-align: justify;
+    padding: 0.3rem;
+    font-style: italic;
+}
+
