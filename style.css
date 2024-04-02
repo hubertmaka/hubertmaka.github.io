@@ -134,7 +134,7 @@ a:hover {
 
 .profile-img {
     border-radius: 20px 60px 20px 30px;
-    max-height: 20rem;
+    max-height: 24rem;
 }
 
 /* SECTION */
@@ -181,7 +181,7 @@ section {
     align-self: center;
     text-align: center;
     height: 400px;
-    padding: 2rem 0 2rem 0;
+    padding: 2rem 4rem;
 }
 
 .sec-text p {
