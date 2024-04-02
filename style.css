@@ -365,11 +365,13 @@ article .icon {
 
 #projects-in-progress {
     position: relative;
-    margin-top: 10rem;
+    margin-top: 7rem;
+    height: fit-content;
 }
 
 #projects {
     position: relative;
+    height: fit-content;
 
 }
 
