@@ -153,6 +153,7 @@ section {
     margin: 2rem;
     box-sizing: border-box;
     min-height: fit-content;
+
 }
 .section-container {
     display: flex;
@@ -324,6 +325,7 @@ section {
 /* EXPERIENCE */
 #experience {
     position: relative;
+    height: auto;
 }
 
 .experience-sub-title {
@@ -361,25 +363,25 @@ article .icon {
 
 /* PROJECTS */
 
+#projects-in-progress {
+    position: relative;
+    margin-top: 10rem;
+}
+
 #projects {
     position: relative;
+
 }
 
 .color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(255, 255, 255);
     margin: 1.5rem;
-    display: flex;
-    min-height: 20rem;
-    min-width: 20rem;
+    min-width: 25rem;
 
 }
 
-.project-img {
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%;
-}
+
 
 .project-title {
     margin: 1rem;
@@ -395,13 +397,63 @@ article .icon {
 .about-containers-projects{
     display: flex;
     width: 100%;
-    flex: 4;
     flex-wrap: wrap;
+
+
 }
 
 .project-description {
     text-align: justify;
     padding: 0.3rem;
     font-style: italic;
+}
+
+/* CONTACT */
+#contact {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    background: rgb(250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.email-icon {
+    height: 2.5rem;
+}
+
+/* FOOTER */
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
 }
 

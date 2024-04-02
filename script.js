@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return (
             rect.top >= 0 && // Odległość od górnej krawędzi, w której ma się uruchomić efekt
             rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) + 400 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) + 300 &&
             rect.right <= (window.innerWidth || document.documentElement.clientWidth)
         );
     }
