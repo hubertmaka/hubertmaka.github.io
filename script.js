@@ -10,11 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function isInViewport(element) {
         const rect = element.getBoundingClientRect();
+        let extraOffset = window.innerWidth < 1200 ? 0 : 300; // Dodatkowy offset tylko dla szerokości ekranu powyżej 1200px
         return (
-            rect.top >= 0 && // Odległość od górnej krawędzi, w której ma się uruchomić efekt
-            rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) + 300 &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            rect.top <= ((window.innerHeight - 300)  || (document.documentElement.clientHeight - 300))
         );
     }
 

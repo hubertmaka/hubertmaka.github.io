@@ -408,6 +408,24 @@ article .icon {
     font-style: italic;
 }
 
+
+/* COURSES */
+#courses {
+    position: relative;
+    margin: 2rem 5rem;
+}
+
+.courses {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    font-style: italic;
+    color: rgb(163, 163, 163);
+    padding-left: 7rem;
+    padding-right: 7rem;
+    list-style: none;
+}
+
+
 /* CONTACT */
 #contact {
     position: relative;
@@ -447,6 +465,8 @@ article .icon {
     height: 2.5rem;
 }
 
+
+
 /* FOOTER */
 footer {
     height: 26vh;
@@ -456,4 +476,5 @@ footer {
 footer p {
     text-align: center;
 }
+
 

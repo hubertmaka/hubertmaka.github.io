@@ -7,12 +7,14 @@
         flex-wrap: wrap;
     }
     #projects {
+        margin-bottom: 20rem;
         flex-wrap: wrap;
     }
 }
 
 @media screen and (max-width: 1200px) {
     #projects {
+        margin-bottom: 10rem;
         flex-wrap: wrap;
     }
     #desktop-nav {
@@ -32,6 +34,7 @@
     }
     section, .section-container {
         height: fit-content;
+        margin-top: 2rem;
     }
     section {
         margin: 0 2%;
@@ -42,7 +45,10 @@
         margin: 0 auto 2rem;
     }
     .about-containers {
-        margin-top: 0;
+        margin-top: 3rem;
+    }
+    .about-details-container {
+        margin-top: 10rem;
     }
 }
 
@@ -99,6 +105,12 @@
     }
     .text-container {
         text-align: justify;
+    }
+    .about-details-container {
+        margin-top: 12rem;
+    }
+    .color-container {
+        min-width: 15rem;
     }
 
 }
