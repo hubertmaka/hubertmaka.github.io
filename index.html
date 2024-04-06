@@ -3,22 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>My portfolio</title>
+    <title>My portfolio - Hubert Mąka</title>
     <meta name="description" content="My portfolio" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-
-<!-- Import Fonts  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="icon" href="./assets/icon-cv.png" />
+    <!-- Import Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">
-        Moje Portfolio
-      </div>
+      <div class="logo">My Portfolio</div>
       <div>
         <ul class="navbar-links">
           <li class="navbar-link"><a href="#about">About</a></li>
@@ -29,9 +30,7 @@
       </div>
     </nav>
     <nav id="mobile-nav">
-      <div class="logo">
-        Moje Portfolio
-      </div>
+      <div class="logo">Moje Portfolio</div>
       <div class="mobile-menu">
         <div class="mobile-icon" onclick="toggleMenu()">
           <span></span>
@@ -39,18 +38,28 @@
           <span></span>
         </div>
         <div class="mobile-links">
-          <li class="navbar-link" ><a  onclick="toggleMenu()" href="#about">About</a></li>
-          <li class="navbar-link"><a  onclick="toggleMenu()" href="#experience">Experience</a></li>
-          <li class="navbar-link"><a  onclick="toggleMenu()" href="#projects">Projects</a></li>
-          <li class="navbar-link"><a  onclick="toggleMenu()" href="#contact">Contact</a></li>
+          <li class="navbar-link">
+            <a onclick="toggleMenu()" href="#about">About</a>
+          </li>
+          <li class="navbar-link">
+            <a onclick="toggleMenu()" href="#experience">Experience</a>
+          </li>
+          <li class="navbar-link">
+            <a onclick="toggleMenu()" href="#projects">Projects</a>
+          </li>
+          <li class="navbar-link">
+            <a onclick="toggleMenu()" href="#contact">Contact</a>
+          </li>
         </div>
       </div>
-
-
     </nav>
     <section id="profile" class="section fade">
-      <div class="sec-pic-container">
-        <img class="profile-img" src="./assets/profile-pic.png" alt="HUBERT MĄKA PROFILE PICTURE"/>
+      <div class="sec-profile-pic-container">
+        <img
+          class="profile-img"
+          src="./assets/profile-pic.png"
+          alt="HUBERT MĄKA PROFILE PICTURE"
+        />
       </div>
       <div class="sec-text">
         <p class="sec-text-p1">Hello I'm</p>
@@ -58,310 +67,388 @@
         <p class="sec-text-p2">1-st grade ICT student 🔭</p>
         <div class="btn-container">
           <button
-                  class="btn btn-color-2"
-                  onclick="window.open('./assets/CV%20-%20Hubert%20Mąka.pdf')"
-          >My CV</button>
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CV%20-%20Hubert%20Mąka.pdf')"
+          >
+            My CV - PL
+          </button>
           <button
-                  class="btn btn-color-1"
-                  onclick="location.href='#contact'"
-          >Contact</button>
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CV%20-%20Hubert%20Mąka.pdf')"
+          >
+            My CV - EN
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact
+          </button>
         </div>
         <div class="socials-container">
-          <img src="./assets/Linkedin-logo-png.png" alt="MY LINKEDIN"
-                class="icon" onclick="location.href='https://www.linkedin.com'"
+          <img
+            src="./assets/Linkedin-logo-png.png"
+            alt="MY LINKEDIN"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com', '_blank')"
           />
-          <img src="./assets/github-logo.png" alt=" MY GITHUB"
-                class="icon" onclick="location.href='https://github.com/hubertmaka'"
+          <img
+            src="./assets/github-logo.png"
+            alt=" MY GITHUB"
+            class="icon"
+            onclick="window.open('https://github.com/hubertmaka', '_blank')"
           />
         </div>
       </div>
-
     </section>
     <section id="about" class="section fade">
       <p class="sec-text-p1">Get to know more</p>
       <p class="sec-title">About me</p>
       <div class="section-container">
         <div class="sec-pic-container">
-          <img src="./assets/second-picture.png" alt="Profile picture" class="about-pic"/>
+          <img
+            src="./assets/second-picture.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
         </div>
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
               <img
-                      src="./assets/experience.png"
-                      alt="Experience icon"
-                      class="icon"
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
               />
               <h3>Experience</h3>
-              <p>0 years <br /> Dev</p>
+              <p>Commercial: None</p>
             </div>
             <div class="details-container">
               <img
-                      src="./assets/education.png"
-                      alt="Education icon"
-                      class="icon"
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
               />
               <h3>Education</h3>
-              <p>In progress: <br /> B.Sc. Bachelors Degree</p>
+                In progress: <br />
+                 <b>Information and Communication Technology (ICT)</b> B.Sc. Bachelors Degree  <br />
+                 at the faculty of <b>Computer Science, Electronics and Telecommunications (WIET) at AGH University of Krakow</b>
+              </p>
             </div>
           </div>
           <div class="text-container">
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra justo at urna fermentum varius. Ut enim mauris, blandit vel massa id, cursus varius nisi. Etiam suscipit efficitur tempor. Aenean sed sapien ultricies, dictum nunc non, iaculis felis. Sed nunc lorem, facilisis sit amet pellentesque ut, pretium sit amet felis. Etiam pellentesque nulla sit amet feugiat rhoncus. Sed sagittis, risus ac vestibulum dictum, leo nulla malesuada velit, a accumsan tellus dui a velit. Maecenas odio arcu, venenatis sed fermentum quis, iaculis eu libero. Donec cursus sodales leo, ut hendrerit quam luctus ac.
-
-              Nulla vehicula vel dui et porttitor. Proin vitae lectus in ante suscipit elementum. Suspendisse eget velit sit amet orci pharetra ornare eu vitae tellus. Quisque aliquam velit massa, eu vestibulum felis vehicula a. In fringilla ligula tellus, in accumsan mi porta rutrum. Morbi vel nibh quis justo aliquet ullamcorper ut ac velit. Aenean sit amet vehicula turpis.
-
-              Phasellus vitae libero augue. Maecenas malesuada sapien pellentesque dui accumsan, at volutpat dui feugiat. Praesent tincidunt elit sit amet metus egestas, sed iaculis quam aliquam. Duis imperdiet vel mi eu tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur euismod, lorem ornare finibus varius, dolor enim porta erat, ac feugiat nibh erat nec lacus. Fusce a tincidunt leo.</p>
+            <p class="profile-text">
+              &nbsp;&nbsp;&nbsp;&nbsp;Hi, I'm Hubert,  21 years old. I come from Poland and live in Krakow. Currently I major  in Information and Communication Technology (B.Sc. Bachelors Degree) at the faculty of Computer Science, Electronics and Telecommunications (WIET) at AGH University of Krakow. I'm actually in my 6th semester of studies.   I love learning and gaining  new knowledge (especially in IT field) and thanks to this I had rector’s scholarship for academic results 2 times (on second year and nowadays).  No matter how nerdy it sounds, programming is my passion. I have written code in many languages so far (Python, Java, C, Javascript (React), Matlab, PL/pgSQL). Moreover I'm intrested in machine learning, cybersecurity and computer networks. My engineering thesis will be focused on ML and gesture recognition.  But apart from that in my free time I love hiking and mountain biking. Nowadays I’m actively looking for an internships.
+            </p>
           </div>
         </div>
       </div>
-      <img src="./assets/down-arrow.png" alt="DOWN ARROW ICO"  class="icon arrow"
+      <img
+        src="./assets/down-arrow.png"
+        alt="DOWN ARROW ICO"
+        class="icon arrow"
         onclick="location.href='#experience'"
       />
     </section>
     <section id="experience" class="section fade">
       <p class="sec-text-p1">Explore My</p>
-      <h1 class="sec-title">Experience</h1>
+      <h1 class="sec-title">Skills & Tools</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-          <h2 class="experience-sub-title">Software Development </h2>
-          <div class="article-container">
-            <article>
-              <div>
-                <h3>✨ HTML</h3>
-                <p>Experienced</p>
-              </div>
-            </article>            <article>
-            <div>
-              <h3>✨ CSS</h3>
-              <p>Experienced</p>
+            <h2 class="experience-sub-title">Languages (Not Only Proggraming 😄)</h2>
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3>✨ Python</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>✨ Java</h3>
+ 
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>✨ C</h3>
+             
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>✨ JavaScript (React)</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>✨ SQL & PL/pgSQL</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>✨ HTML5</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>✨ CSS3</h3>
+                </div>
+              </article>
             </div>
-          </article>            <article>
-            <div>
-              <h3>✨ Python</h3>
-              <p>Experienced</p>
-            </div>
-          </article>            <article>
-            <div>
-              <h3>✨ JavaScript</h3>
-              <p>Experienced</p>
-            </div>
-          </article>            <article>
-            <div>
-              <h3>✨ Linux</h3>
-              <p>Experienced</p>
-            </div>
-          </article>            <article>
-            <div>
-              <h3>✨ HTML</h3>
-              <p>Experienced</p>
-            </div>
-          </article>
           </div>
-        </div>
           <div class="details-container">
-          <h2 class="experience-sub-title">Other</h2>
-          <div class="article-container">
-            <article>
-              <div>
-                <h3>✨ HTML</h3>
-                <p>Experienced</p>
-              </div>
-            </article>            <article>
-            <div>
-              <h3>✨ CSS</h3>
-              <p>Experienced</p>
+            <h2 class="experience-sub-title">Other Skills & Tools</h2>
+            <div class="article-container">
+              <article>
+                <div>
+                  <h3>✨ GIT</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>✨ Linux Based Operating Systems & Windows & CLI</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>✨ Database Management System (PostgreSQL) </h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>✨ Computer Networks (2 and 3 Layer Devices Configuration & ISO/OSI Protocols)</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>✨ Cryptography & Systems and Networks Security</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>✨ Data Analysis & Machine Learning</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>✨ Docker</h3>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3>✨ Jira & Software Engineering Concepts</h3>
+                </div>
+              </article>
             </div>
-          </article>            <article>
-            <div>
-              <h3>✨ Python</h3>
-              <p>Experienced</p>
-            </div>
-          </article>            <article>
-            <div>
-              <h3>✨ JavaScript</h3>
-              <p>Experienced</p>
-            </div>
-          </article>            <article>
-            <div>
-              <h3>✨ Linux</h3>
-              <p>Experienced</p>
-            </div>
-          </article>            <article>
-            <div>
-              <h3>✨ HTML</h3>
-              <p>Experienced</p>
-            </div>
-          </article>
           </div>
-        </div>
         </div>
       </div>
-      <img src="./assets/down-arrow.png"
-           alt="ARROW ICON"
-           class="icon arrow"
-           onclick="location.href='#projects'"
-      >
+      <img
+        src="./assets/down-arrow.png"
+        alt="ARROW ICON"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
     </section>
     <section id="projects" class="section fade">
-      <p class="sec-text-p1" >Browse My Recent</p>
-      <h1 class="sec-title" >Projects</h1>
+      <p class="sec-text-p1">Browse My Recent</p>
+      <h1 class="sec-title">Projects</h1>
       <div class="experience-details-container">
-        <div class="about-containers-projects" >
-          <div class="details-container color-container" >
-            <h2 class="experience-sub-title project-title" >Project One</h2>
-            <div class="article-container" >
-              <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra justo at urna fermentum varius. Ut enim mauris, blandit vel massa id, cursus varius nisi. Etiam suscipit efficitur tempor. Aenean sed sapien ultricies, dictum nunc non, iaculis felis. Sed nunc lorem, facilisis sit amet pellentesque ut, pretium sit amet felis. Etiam pellentesque nulla sit amet feugiat rhoncus. Sed sagittis, risus ac vestibulum dictum, leo nulla malesuada velit, a accumsan tellus dui a velit. Maecenas odio arcu, venenatis sed fermentum quis, iaculis eu libero. Donec cursus sodales leo, ut hendrerit quam luctus ac. Nulla vehicula vel dui et porttitor. Proin vitae lectus in ante suscipit elementum. Suspendisse eget velit sit amet orci pharetra ornare eu vitae tellus. Quisque aliquam velit massa, eu vestibulum felis vehicula a. In fringilla ligula tellus, in accumsan mi porta rutrum. Morbi vel nibh quis justo aliquet ullamcorper ut ac velit. Aenean sit amet vehicula turpis.</p>
+        <div class="about-containers-projects">
+          <div class="details-container color-container-1">
+            <h2 class="experience-sub-title project-title">Try-Fail-Repeat</h2>
+            <div class="article-container">
+              <p class="project-description">
+                &nbsp;&nbsp;&nbsp;&nbsp;It is a graphical implementation and visualization of two heuristic algorithms (Binary Tree and Ancestors algorithm like) in Python. To visualize next algorithm steps we used Pygame liblary. My and my teammates goal was to create a program where the car will try to overcome the given track. Each time the car hits the wall, it comes to start and try again. Moreover we needed to create tasks for group which we presented this project. As VCS we used GIT. Code and example pictures on github repository: 
+              </p>
             </div>
 
             <div class="btn-container">
               <button
-                      class="btn btn-color-2 project-btn"
-                      onclick="location.href='https://github.com/hubertmaka/www-project'"
-              >Github</button>
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/hubertmaka/__TFR__'"
+              >
+              GITHUB REPOSITORY
+              </button>
             </div>
-
           </div>
-          <div class="details-container color-container" >
-            <h2 class="experience-sub-title project-title" >Project One</h2>
-            <div class="article-container" >
-              <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra justo at urna fermentum varius. Ut enim mauris, blandit vel massa id, cursus varius nisi. Etiam suscipit efficitur tempor. Aenean sed sapien ultricies, dictum nunc non, iaculis felis. Sed nunc lorem, facilisis sit amet pellentesque ut, pretium sit amet felis. Etiam pellentesque nulla sit amet feugiat rhoncus. Sed sagittis, risus ac vestibulum dictum, leo nulla malesuada velit, a accumsan tellus dui a velit. Maecenas odio arcu, venenatis sed fermentum quis, iaculis eu libero. Donec cursus sodales leo, ut hendrerit quam luctus ac. Nulla vehicula vel dui et porttitor. Proin vitae lectus in ante suscipit elementum. Suspendisse eget velit sit amet orci pharetra ornare eu vitae tellus. Quisque aliquam velit massa, eu vestibulum felis vehicula a. In fringilla ligula tellus, in accumsan mi porta rutrum. Morbi vel nibh quis justo aliquet ullamcorper ut ac velit. Aenean sit amet vehicula turpis.</p>
+          <div class="details-container color-container-2">
+            <h2 class="experience-sub-title project-title">Web Application For Managing Sport Club</h2>
+            <div class="article-container">
+              <p class="project-description">
+                &nbsp;&nbsp;&nbsp;&nbsp;This project is concentrating on creating web application using Python and Flask framework as backend and JavaScript and React framework as frontend for sport Club. There is implemented many features like calendar for logged in/not logged in users with possibility to create new events, user accounts, admin panel to create posts, newsletter and section descriptions. Application is fully responsive. As VCS we used GIT. More example pictures and code on github:
+              </p>
             </div>
 
             <div class="btn-container">
               <button
-                      class="btn btn-color-2 project-btn"
-                      onclick="location.href='https://github.com/hubertmaka/www-project'"
-              >Github</button>
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/hubertmaka/www-project'"
+              >
+              GITHUB REPOSITORY
+              </button>
             </div>
-
           </div>
-          <div class="details-container color-container" >
-            <h2 class="experience-sub-title project-title" >Project One</h2>
-            <div class="article-container" >
-              <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra justo at urna fermentum varius. Ut enim mauris, blandit vel massa id, cursus varius nisi. Etiam suscipit efficitur tempor. Aenean sed sapien ultricies, dictum nunc non, iaculis felis. Sed nunc lorem, facilisis sit amet pellentesque ut, pretium sit amet felis. Etiam pellentesque nulla sit amet feugiat rhoncus. Sed sagittis, risus ac vestibulum dictum, leo nulla malesuada velit, a accumsan tellus dui a velit. Maecenas odio arcu, venenatis sed fermentum quis, iaculis eu libero. Donec cursus sodales leo, ut hendrerit quam luctus ac. Nulla vehicula vel dui et porttitor. Proin vitae lectus in ante suscipit elementum. Suspendisse eget velit sit amet orci pharetra ornare eu vitae tellus. Quisque aliquam velit massa, eu vestibulum felis vehicula a. In fringilla ligula tellus, in accumsan mi porta rutrum. Morbi vel nibh quis justo aliquet ullamcorper ut ac velit. Aenean sit amet vehicula turpis.</p>
+          <div class="details-container color-container-1">
+            <h2 class="experience-sub-title project-title">Docker Escape</h2>
+            <div class="article-container">
+              <p class="project-description">
+                &nbsp;&nbsp;&nbsp;&nbsp;This is a project focusing on theoretical container operatons and Docker as a tool to create them. We created test environment (container in container) with simple web application on it and presented how Docker works and what are its vulnerabilities for example Docker Escape. As VCS we used GIT. More example info and code on github:  
+              </p>
             </div>
 
             <div class="btn-container">
               <button
-                      class="btn btn-color-2 project-btn"
-                      onclick="location.href='https://github.com/hubertmaka/www-project'"
-              >Github</button>
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/hubertmaka/Docker-Escape'"
+              >
+              GITHUB REPOSITORY
+              </button>
             </div>
-
           </div>
-          <div class="details-container color-container" >
-            <h2 class="experience-sub-title project-title" >Project One</h2>
-            <div class="article-container" >
-              <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra justo at urna fermentum varius. Ut enim mauris, blandit vel massa id, cursus varius nisi. Etiam suscipit efficitur tempor. Aenean sed sapien ultricies, dictum nunc non, iaculis felis. Sed nunc lorem, facilisis sit amet pellentesque ut, pretium sit amet felis. Etiam pellentesque nulla sit amet feugiat rhoncus. Sed sagittis, risus ac vestibulum dictum, leo nulla malesuada velit, a accumsan tellus dui a velit. Maecenas odio arcu, venenatis sed fermentum quis, iaculis eu libero. Donec cursus sodales leo, ut hendrerit quam luctus ac. Nulla vehicula vel dui et porttitor. Proin vitae lectus in ante suscipit elementum. Suspendisse eget velit sit amet orci pharetra ornare eu vitae tellus. Quisque aliquam velit massa, eu vestibulum felis vehicula a. In fringilla ligula tellus, in accumsan mi porta rutrum. Morbi vel nibh quis justo aliquet ullamcorper ut ac velit. Aenean sit amet vehicula turpis.</p>
+          <div class="details-container color-container-2">
+            <h2 class="experience-sub-title project-title">Internet Clothing Store</h2>
+            <div class="article-container">
+              <p class="project-description">
+                &nbsp;&nbsp;&nbsp;&nbsp;This is an Internet clothing store created in Python (Django, REST framework) as backend and JavaScript (React) as frontend. It has newsletter, panel admin to managing products and orders, simple user profile, and basket. It is fully responsive. As VCS we used GIT and Jira to manage taskts in Scrum production process. Code on github:  
+              </p>
             </div>
 
             <div class="btn-container">
               <button
-                      class="btn btn-color-2 project-btn"
-                      onclick="location.href='https://github.com/hubertmaka/www-project'"
-              >Github</button>
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/hubertmaka/Internet-Store'"
+              >
+              GITHUB REPOSITORY
+              </button>
             </div>
-
           </div>
-          <div class="details-container color-container" >
-            <h2 class="experience-sub-title project-title" >Project One</h2>
-            <div class="article-container" >
-              <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra justo at urna fermentum varius. Ut enim mauris, blandit vel massa id, cursus varius nisi. Etiam suscipit efficitur tempor. Aenean sed sapien ultricies, dictum nunc non, iaculis felis. Sed nunc lorem, facilisis sit amet pellentesque ut, pretium sit amet felis. Etiam pellentesque nulla sit amet feugiat rhoncus. Sed sagittis, risus ac vestibulum dictum, leo nulla malesuada velit, a accumsan tellus dui a velit. Maecenas odio arcu, venenatis sed fermentum quis, iaculis eu libero. Donec cursus sodales leo, ut hendrerit quam luctus ac. Nulla vehicula vel dui et porttitor. Proin vitae lectus in ante suscipit elementum. Suspendisse eget velit sit amet orci pharetra ornare eu vitae tellus. Quisque aliquam velit massa, eu vestibulum felis vehicula a. In fringilla ligula tellus, in accumsan mi porta rutrum. Morbi vel nibh quis justo aliquet ullamcorper ut ac velit. Aenean sit amet vehicula turpis.</p>
+          <div class="details-container color-container-1">
+            <h2 class="experience-sub-title project-title">Apartments WebScrapper Desktop Application</h2>
+            <div class="article-container">
+              <p class="project-description">
+                &nbsp;&nbsp;&nbsp;&nbsp;This project is implemented in Java using Jsoup and JavaFX with log4j logging. It is a desktop application in which user can scrape apartments info from two sites from any bigger city or cities in Poland. Then it is possibility to filter and sort by different parameters. As VCS I used GIT. Code on github:  
+              </p>
             </div>
 
             <div class="btn-container">
               <button
-                      class="btn btn-color-2 project-btn"
-                      onclick="location.href='https://github.com/hubertmaka/www-project'"
-              >Github</button>
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/hubertmaka/WebScraper-Application'"
+              >
+              GITHUB REPOSITORY
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container-2">
+            <h2 class="experience-sub-title project-title">Sport Tournament Management System Database</h2>
+            <div class="article-container">
+              <p class="project-description">
+                &nbsp;&nbsp;&nbsp;&nbsp;Database created in PL/pgSQL with PostgreSQL as DBMS with functions to managing sport tournaments with point systems highlighting teams and solo sportsmans. The database ensures authorization, atomicity, consistency, isolation, and durability in crutial places.  As VCS I used GIT. Code and more informations on github:  
+              </p>
             </div>
 
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/hubertmaka/Database-for-a-sports-tournament-management-system'"
+              >
+              GITHUB REPOSITORY
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container-2">
+            <h2 class="experience-sub-title project-title">Implementation of various digital filters with presentation on
+              example signal</h2>
+            <div class="article-container">
+              <p class="project-description">
+                &nbsp;&nbsp;&nbsp;&nbsp;The project involves implementing various digital filters using the Matlab language. Code and more informations on github:  
+              </p>
+            </div>
+
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/hubertmaka/computational-techniques-project'"
+              >
+              GITHUB REPOSITORY
+              </button>
+            </div>
           </div>
         </div>
-
       </div>
 
-      <img src="./assets/down-arrow.png"
-           alt="ARROW ICON"
-           class="icon arrow"
-           onclick="location.href='#contact'"
-      >
+      <img
+        src="./assets/down-arrow.png"
+        alt="ARROW ICON"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
     </section>
     <section id="projects-in-progress" class="section fade">
-      <p class="sec-text-p1" >Check also</p>
-      <h1 class="sec-title" >Projects In Progress</h1>
+      <p class="sec-text-p1">Check also</p>
+      <h1 class="sec-title">Projects In Progress</h1>
       <div class="experience-details-container">
-        <div class="about-containers-projects" >
-          <div class="details-container color-container" >
-            <h2 class="experience-sub-title project-title" >Project One</h2>
-            <div class="article-container" >
-              <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra justo at urna fermentum varius. Ut enim mauris, blandit vel massa id, cursus varius nisi. Etiam suscipit efficitur tempor. Aenean sed sapien ultricies, dictum nunc non, iaculis felis. Sed nunc lorem, facilisis sit amet pellentesque ut, pretium sit amet felis. Etiam pellentesque nulla sit amet feugiat rhoncus. Sed sagittis, risus ac vestibulum dictum, leo nulla malesuada velit, a accumsan tellus dui a velit. Maecenas odio arcu, venenatis sed fermentum quis, iaculis eu libero. Donec cursus sodales leo, ut hendrerit quam luctus ac. Nulla vehicula vel dui et porttitor. Proin vitae lectus in ante suscipit elementum. Suspendisse eget velit sit amet orci pharetra ornare eu vitae tellus. Quisque aliquam velit massa, eu vestibulum felis vehicula a. In fringilla ligula tellus, in accumsan mi porta rutrum. Morbi vel nibh quis justo aliquet ullamcorper ut ac velit. Aenean sit amet vehicula turpis.</p>
+        <div class="about-containers-projects">
+          <div class="details-container color-container-1">
+            <h2 class="experience-sub-title project-title">Link Phishing Detection Using Machine Learing Algorithms (In Progress)</h2>
+            <div class="article-container">
+              <p class="project-description">
+                &nbsp;&nbsp;&nbsp;&nbsp;It is a project for a student research group conference which aims to learn differen AI models (especially Neural Network) how to recognize phishing in link based on its syntax. 
+              </p>
             </div>
-
-            <div class="btn-container">
-              <button
-                      class="btn btn-color-2 project-btn"
-                      onclick="location.href='https://github.com/hubertmaka/www-project'"
-              >Github</button>
-            </div>
-
           </div>
-          <div class="details-container color-container" >
-            <h2 class="experience-sub-title project-title" >Project One</h2>
-            <div class="article-container" >
-              <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra justo at urna fermentum varius. Ut enim mauris, blandit vel massa id, cursus varius nisi. Etiam suscipit efficitur tempor. Aenean sed sapien ultricies, dictum nunc non, iaculis felis. Sed nunc lorem, facilisis sit amet pellentesque ut, pretium sit amet felis. Etiam pellentesque nulla sit amet feugiat rhoncus. Sed sagittis, risus ac vestibulum dictum, leo nulla malesuada velit, a accumsan tellus dui a velit. Maecenas odio arcu, venenatis sed fermentum quis, iaculis eu libero. Donec cursus sodales leo, ut hendrerit quam luctus ac. Nulla vehicula vel dui et porttitor. Proin vitae lectus in ante suscipit elementum. Suspendisse eget velit sit amet orci pharetra ornare eu vitae tellus. Quisque aliquam velit massa, eu vestibulum felis vehicula a. In fringilla ligula tellus, in accumsan mi porta rutrum. Morbi vel nibh quis justo aliquet ullamcorper ut ac velit. Aenean sit amet vehicula turpis.</p>
+          <div class="details-container color-container-2">
+            <h2 class="experience-sub-title project-title">Speeking Language Detection (In Progress)</h2>
+            <div class="article-container">
+              <p class="project-description">
+                &nbsp;&nbsp;&nbsp;&nbsp;The aim of the project is to design and build a model that recognizes language from a given sound sample. The assumption is a given number of different languages ​​that the model will be able to recognize. The implementation can be based on films/podcasts in these languages ​​downloaded from the Internet and based on them, training a model that will be able to recognize a given language from a fragment of speech. The input may be PCM or some processed form of speech (mel scale spectrogram, etc.)
+              </p>
             </div>
-
-            <div class="btn-container">
-              <button
-                      class="btn btn-color-2 project-btn"
-                      onclick="location.href='https://github.com/hubertmaka/www-project'"
-              >Github</button>
-            </div>
-
           </div>
-          <div class="details-container color-container" >
-            <h2 class="experience-sub-title project-title" >Project One</h2>
-            <div class="article-container" >
-              <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra justo at urna fermentum varius. Ut enim mauris, blandit vel massa id, cursus varius nisi. Etiam suscipit efficitur tempor. Aenean sed sapien ultricies, dictum nunc non, iaculis felis. Sed nunc lorem, facilisis sit amet pellentesque ut, pretium sit amet felis. Etiam pellentesque nulla sit amet feugiat rhoncus. Sed sagittis, risus ac vestibulum dictum, leo nulla malesuada velit, a accumsan tellus dui a velit. Maecenas odio arcu, venenatis sed fermentum quis, iaculis eu libero. Donec cursus sodales leo, ut hendrerit quam luctus ac. Nulla vehicula vel dui et porttitor. Proin vitae lectus in ante suscipit elementum. Suspendisse eget velit sit amet orci pharetra ornare eu vitae tellus. Quisque aliquam velit massa, eu vestibulum felis vehicula a. In fringilla ligula tellus, in accumsan mi porta rutrum. Morbi vel nibh quis justo aliquet ullamcorper ut ac velit. Aenean sit amet vehicula turpis.</p>
+          <div class="details-container color-container-1">
+            <h2 class="experience-sub-title project-title">Parkour Game in Unity (Starting)</h2>
+            <div class="article-container">
+              <p class="project-description">
+                &nbsp;&nbsp;&nbsp;&nbsp;Me and my teammates form studies want to create a game which will be 3D speedrun parkour with elements of fighting. 
+              </p>
             </div>
 
-            <div class="btn-container">
-              <button
-                      class="btn btn-color-2 project-btn"
-                      onclick="location.href='https://github.com/hubertmaka/www-project'"
-              >Github</button>
-            </div>
-
+           
           </div>
-          <div class="details-container color-container" >
-            <h2 class="experience-sub-title project-title" >Project One</h2>
-            <div class="article-container" >
-              <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra justo at urna fermentum varius. Ut enim mauris, blandit vel massa id, cursus varius nisi. Etiam suscipit efficitur tempor. Aenean sed sapien ultricies, dictum nunc non, iaculis felis. Sed nunc lorem, facilisis sit amet pellentesque ut, pretium sit amet felis. Etiam pellentesque nulla sit amet feugiat rhoncus. Sed sagittis, risus ac vestibulum dictum, leo nulla malesuada velit, a accumsan tellus dui a velit. Maecenas odio arcu, venenatis sed fermentum quis, iaculis eu libero. Donec cursus sodales leo, ut hendrerit quam luctus ac. Nulla vehicula vel dui et porttitor. Proin vitae lectus in ante suscipit elementum. Suspendisse eget velit sit amet orci pharetra ornare eu vitae tellus. Quisque aliquam velit massa, eu vestibulum felis vehicula a. In fringilla ligula tellus, in accumsan mi porta rutrum. Morbi vel nibh quis justo aliquet ullamcorper ut ac velit. Aenean sit amet vehicula turpis.</p>
+          <div class="details-container color-container-2">
+            <h2 class="experience-sub-title project-title">ANS compression implementation (In Early Progress)</h2>
+            <div class="article-container">
+              <p class="project-description">
+                &nbsp;&nbsp;&nbsp;&nbsp;The aim of the project is to implement and compare three versions of the ANS (Asymmetric Numeral Systems) compression algorithm in Python. ANS is a family of entropy codings characterized by high compression efficiency, similar to arithmetic coding, while maintaining low computational cost comparable to Huffman coding.
+              </p>
             </div>
-
-            <div class="btn-container">
-              <button
-                      class="btn btn-color-2 project-btn"
-                      onclick="location.href='https://github.com/hubertmaka/www-project'"
-              >Github</button>
-            </div>
-
           </div>
-
+          <div class="details-container color-container-1">
+            <h2 class="experience-sub-title project-title">Network Programming Application (in concept phase)</h2>
+            <div class="article-container">
+              <p class="project-description">
+                &nbsp;&nbsp;&nbsp;&nbsp;Implementation language C using system sockets. More info soon... 
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <section id="courses" class="section fade">
-      <p class="sec-text-p1" >Courses</p>
-      <h1 class="sec-title" >I have done:</h1>
+      <p class="sec-text-p1">Courses</p>
+      <h1 class="sec-title">I have done:</h1>
       <ul class="courses">
-        <li>👉 Python Course ✅</li>
-        <li>👉 Linux command line course (Udemy) ✅</li>
-        <li>👉 ML Course - Linear Regression and Classification (Coursera) ✅</li>
-        <li>👉 Essentials of C language ✅</li>
-        <li>👉 Advanced ML algorithms (In progress)</li>
+        <li>👉 <a href="https://www.pythonacademy.pl/">Kurs PythON: Academy (Full course)</a>  ✅</li>
+        <li>👉 <a href="https://www.coursera.org/learn/machine-learning?specialization=machine-learning-introduction">Supervised Machine Learning: Regression and Classification (Coursera)</a> ✅</li>
+        <li>👉 <a href="https://www.coursera.org/learn/advanced-learning-algorithms?specialization=machine-learning-introduction">Advanced Learning Algorithms (Coursera)</a>✅</li>
+        <li>👉 <a href="https://strefakursow.pl/sciezki_kariery/java_developer.html">Kurs JAVA - wzorce projektowe (Strefa Kursów)</a> ✅</li>
+        <li>👉 <a href="https://strefakursow.pl/sciezki_kariery/java_developer.html">Kurs JAVA - Fundamenty języka Java (Strefa Kursów)</a> ✅</li>
+        <li>👉 <a href="https://www.udemy.com/course/analiza-danych-w-python-i-pandas/">Data Science: Analiza danych w Python i PANDAS (Udemy)</a>✅</li>
+        <li>👉 <a href="https://www.udemy.com/course/struktury-danych-i-algorytmy-w-pythonie/">Struktury danych i algorytmy w Pythonie (Udemy)</a>✅</li>
+        <li>👉 <a href="https://www.udemy.com/course/podstawy-programowania-jezyk-c/">Podstawy programowania. Język C (Udemy)</a>✅</li>
+        <li>👉 <a href="https://www.udemy.com/course/python-flask-aplikacje-webowe/">Python Flask (Udemy)</a>✅</li>
+        <li>👉 <a href="https://www.udemy.com/course/administrator-linux-skryptowanie-w-bash-z-podrecznikiem-pdf/">Administrator Linux: Skryptowanie w BASH</a>✅</li>
+        <li>👉 <a href="https://www.udemy.com/course/linux101/">Linux - linia komend dla początkujących</a>✅</li>
+        <li>👉 <a href="https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning">Unsupervised Learning, Recommenders, Reinforcement Learning</a>(In Progress)</li>
       </ul>
     </section>
     <section id="contact" class="section fade">
@@ -369,11 +456,12 @@
       <h1 class="sec-title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
-          <img src="./assets/email.jpg" alt="EMAIL" class="icon contact-icon">
-          <p><a href="mailto:hubert.maka02@gmail.com">hubert.maka02@gmail.com</a></p>
+          <img src="./assets/email.jpg" alt="EMAIL" class="icon contact-icon" />
+          <p>
+            <a href="mailto:hubert.maka02@gmail.com">hubert.maka02@gmail.com</a>
+          </p>
         </div>
       </div>
-
     </section>
 
     <footer>
