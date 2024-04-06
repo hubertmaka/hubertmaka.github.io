@@ -225,6 +225,7 @@ section {
 
 .profile-text {
   text-align: justify;
+  padding: 0 1rem;
 }
 
 /* BUTTONS */
@@ -289,6 +290,7 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  padding: 0 4rem 4rem 1rem;
 }
 
 .about-containers,
