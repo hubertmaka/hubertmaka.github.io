@@ -36,6 +36,14 @@
   #experience,
   .experience-details-container {
     margin-top: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .details-container {
+    width: 100%;
   }
   #profile,
   .section-container {
@@ -59,10 +67,11 @@
     margin-right: auto;
   }
   .sec-profile-pic-container {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 1rem;
   }
   .about-containers {
     margin-top: 3rem;
@@ -73,12 +82,43 @@
 }
 
 @media screen and (max-width: 600px) {
-  #projects {
-    flex-wrap: wrap;
+  section {
+    width: auto;
   }
+  .article-container {
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  .details-container {
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    width: 100%;
+  }
+  .experience-details-container {
+    display: flex;
+  }
+  #about {
+    margin: 0;
+    padding: 0;
+  }
+  .body {
+    width: 100%;
+  }
+
+  #projects,
+  #projects-in-progress {
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+  }
+
   #contact,
   footer {
     height: 40vh;
+    margin: 0;
+    padding: 0.125rem;
   }
   #profile {
     height: 83vh;
@@ -92,10 +132,20 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
+  .about-containers {
+    max-width: 10rem;
+  }
+  .contact-info-upper-container {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
   .contact-info-container {
     margin: 0;
@@ -105,7 +155,8 @@
     font-size: 1rem;
   }
   .experience-sub-title {
-    font-size: 1.25rem;
+    padding-top: 1rem;
+    font-size: 1.1rem;
   }
   .logo {
     font-size: 1.5rem;
@@ -116,8 +167,9 @@
     text-align: center;
   }
   .sec-pic-container {
+    padding-top: 0rem;
     width: auto;
-    height: 46vw;
+    height: 40vw;
     justify-content: center;
   }
 
@@ -132,20 +184,42 @@
   .sec-title {
     font-size: 2rem;
   }
+  .icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .long-icon {
+    width: auto;
+    height: 3rem;
+  }
   .text-container {
     text-align: justify;
   }
+
   .about-details-container {
-    margin-top: 12rem;
+    margin-top: 4rem;
+    width: auto;
+    align-items: center;
+    padding: 1rem;
   }
-  .color-container {
-    min-width: 15rem;
+  .color-container-1 {
+    min-width: 17rem;
+  }
+  .color-container-2 {
+    min-width: 17rem;
   }
   .courses {
     padding-left: 0;
     padding-right: 0;
   }
+  .about-pic {
+    height: 200px;
+    width: 200px;
+  }
   #courses {
-    margin: 2rem;
+    margin: 0rem;
+    padding: 0.5rem;
+    text-align: center;
+    max-width: 90%;
   }
 }
