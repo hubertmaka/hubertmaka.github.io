@@ -202,7 +202,7 @@ section {
 .sec-title {
   font-size: 2rem;
   text-align: center;
-  padding-bottom: 0.4rem;
+  padding-bottom: 1rem;
   color: rgb(0, 0, 0);
 }
 
@@ -387,10 +387,11 @@ article .icon {
 }
 
 .color-container-2 {
-  border-color: rgb(0, 0, 0);
-  background: rgb(230, 230, 250);
+  border-color: rgb(163, 163, 163);
+  background: rgb(230, 230, 230);
   margin: 1.5rem;
   min-width: 25rem;
+  box-shadow: 1.1rem -1.1rem teal;
 }
 
 .color-container-1 {
@@ -398,6 +399,7 @@ article .icon {
   background: rgb(255, 255, 255);
   margin: 1.5rem;
   min-width: 25rem;
+  box-shadow: 1.1rem -1.1rem teal;
 }
 
 .project-title {
@@ -406,9 +408,9 @@ article .icon {
 }
 
 .project-btn {
-  background-color: rgb(135, 206, 235);
+  background: rgb(215, 215, 215);
   color: rgb(0, 0, 0);
-  border-color: rgb(135, 206, 235);
+  border-color: rgb(163, 163, 163);
 }
 
 .about-containers-projects {

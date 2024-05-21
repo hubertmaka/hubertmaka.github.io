@@ -99,8 +99,8 @@
     display: flex;
   }
   #about {
-    margin: 0;
     padding: 0;
+    margin: 10rem 0 0;
   }
   .body {
     width: 100%;
