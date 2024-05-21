@@ -391,7 +391,7 @@ article .icon {
   background: rgb(230, 230, 230);
   margin: 1.5rem;
   min-width: 25rem;
-  box-shadow: 1.1rem -1.1rem teal;
+  box-shadow: 1rem -1rem teal;
 }
 
 .color-container-1 {
@@ -399,7 +399,7 @@ article .icon {
   background: rgb(255, 255, 255);
   margin: 1.5rem;
   min-width: 25rem;
-  box-shadow: 1.1rem -1.1rem teal;
+  box-shadow: 1rem -1rem teal;
 }
 
 .project-title {
