@@ -313,6 +313,7 @@ section {
 }
 
 .details-container {
+  max-width: 50%;
   padding: 1rem;
   flex: 1;
   flex-direction: column;

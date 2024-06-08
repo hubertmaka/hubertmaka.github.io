@@ -10,6 +10,9 @@
     flex-wrap: wrap;
     height: fit-content;
   }
+  .details-container {
+    width: 30%;
+  }
 
   #projects-in-progress {
     height: fit-content;
@@ -47,8 +50,8 @@
     padding: 0;
   }
   .details-container {
-    width: 100%;
-
+    width: 50%;
+    max-width: 100%;
   }
   #profile,
   .section-container {
